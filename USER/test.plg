@@ -1,0 +1,439 @@
+<html>
+<body>
+<pre>
+<h1>�Vision Build Log</h1>
+<h2>Project:</h2>
+D:\STM32ѧϰ\USER\test.uvproj
+Project File Date:  03/17/2011
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(2): error:  #5: cannot open source input file "LCD.h": No such file or directory
+compiling stm32f10x_it.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+assembling startup_stm32f10x_md.s...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(2): error:  #5: cannot open source input file "LCD.h": No such file or directory
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(25): warning:  #177-D: variable "NVIC_InitStructure" was declared but never referenced
+main.c(48): error:  #20: identifier "RCC_APB2Periph_ALL" is undefined
+main.c(68): warning:  #223-D: function "USART_Configuration" declared implicitly
+main.c(81): warning:  #223-D: function "SysTick_Initaize" declared implicitly
+main.c(87): warning:  #223-D: function "delay_ms" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(27): warning:  #177-D: variable "NVIC_InitStructure" was declared but never referenced
+main.c(50): error:  #20: identifier "RCC_APB2Periph_ALL" is undefined
+main.c(82): warning:  #223-D: function "SysTick_Initaize" declared implicitly
+main.c(88): warning:  #223-D: function "delay_ms" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(27): warning:  #177-D: variable "NVIC_InitStructure" was declared but never referenced
+main.c(50): error:  #20: identifier "RCC_APB2Periph_ALL" is undefined
+main.c(82): warning:  #223-D: function "SysTick_Initaize" declared implicitly
+main.c(88): warning:  #223-D: function "delay_ms" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(27): warning:  #177-D: variable "NVIC_InitStructure" was declared but never referenced
+main.c(81): warning:  #223-D: function "SysTick_Initaize" declared implicitly
+main.c(87): warning:  #223-D: function "delay_ms" declared implicitly
+linking...
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_Initaize (referred from main.o).
+..\OBJ\test.axf: Error: L6218E: Undefined symbol delay_ms (referred from main.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(27): warning:  #177-D: variable "NVIC_InitStructure" was declared but never referenced
+main.c(81): warning:  #223-D: function "SysTick_Initaize" declared implicitly
+main.c(87): warning:  #223-D: function "delay_ms" declared implicitly
+linking...
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_Initaize (referred from main.o).
+..\OBJ\test.axf: Error: L6218E: Undefined symbol delay_ms (referred from main.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(16): warning:  #223-D: function "NVIC_SystemHandlerPriorityConfig" declared implicitly
+main.c(16): error:  #20: identifier "SystemHandler_SysTick" is undefined
+main.c(19): warning:  #223-D: function "SysTick_SetReload" declared implicitly
+main.c(22): warning:  #223-D: function "SysTick_ITConfig" declared implicitly
+main.c(43): warning:  #177-D: variable "NVIC_InitStructure" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(19): warning:  #223-D: function "SysTick_SetReload" declared implicitly
+main.c(22): warning:  #223-D: function "SysTick_ITConfig" declared implicitly
+main.c(43): warning:  #177-D: variable "NVIC_InitStructure" was declared but never referenced
+linking...
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_ITConfig (referred from main.o).
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_SetReload (referred from main.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(43): warning:  #177-D: variable "NVIC_InitStructure" was declared but never referenced
+linking...
+Program Size: Code=3080 RO-data=268 RW-data=40 ZI-data=1632  
+FromELF: creating hex file...
+"..\OBJ\test.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=3080 RO-data=268 RW-data=40 ZI-data=1632  
+FromELF: creating hex file...
+"..\OBJ\test.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=3080 RO-data=268 RW-data=40 ZI-data=1632  
+FromELF: creating hex file...
+"..\OBJ\test.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\OBJ\\test.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled Dec  1 2009 11:42:48
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.332V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+main.c(20): warning:  #223-D: function "SysTick_SetReload" declared implicitly
+main.c(23): warning:  #223-D: function "SysTick_ITConfig" declared implicitly
+linking...
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_ITConfig (referred from main.o).
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_SetReload (referred from main.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(23): warning:  #223-D: function "SysTick_SetReload" declared implicitly
+main.c(26): warning:  #223-D: function "SysTick_ITConfig" declared implicitly
+linking...
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_ITConfig (referred from main.o).
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_SetReload (referred from main.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_it.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling misc.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_adc.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_bkp.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_can.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_cec.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_crc.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_dac.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_dbgmcu.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_dma.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_exti.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_flash.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_fsmc.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_gpio.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_i2c.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_iwdg.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_pwr.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_rcc.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_rtc.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_sdio.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_spi.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_tim.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_usart.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling stm32f10x_wwdg.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+..\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(23): warning:  #223-D: function "SysTick_SetReload" declared implicitly
+main.c(26): warning:  #223-D: function "SysTick_ITConfig" declared implicitly
+compiling stm32f10x_it.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+linking...
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_ITConfig (referred from main.o).
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_SetReload (referred from main.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(24): warning:  #223-D: function "SysTick_SetReload" declared implicitly
+main.c(26): warning:  #223-D: function "SysTick_ITConfig" declared implicitly
+linking...
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_ITConfig (referred from main.o).
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_SetReload (referred from main.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(23): warning:  #223-D: function "SysTick_SetReload" declared implicitly
+main.c(26): warning:  #223-D: function "SysTick_ITConfig" declared implicitly
+linking...
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_ITConfig (referred from main.o).
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_SetReload (referred from main.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(23): warning:  #223-D: function "SysTick_SetReload" declared implicitly
+main.c(26): warning:  #223-D: function "SysTick_ITConfig" declared implicitly
+linking...
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_ITConfig (referred from main.o).
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_SetReload (referred from main.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(24): warning:  #223-D: function "SysTick_SetReload" declared implicitly
+main.c(27): warning:  #223-D: function "SysTick_ITConfig" declared implicitly
+linking...
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_ITConfig (referred from main.o).
+..\OBJ\test.axf: Error: L6218E: Undefined symbol SysTick_SetReload (referred from main.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=3080 RO-data=268 RW-data=40 ZI-data=1632  
+FromELF: creating hex file...
+"..\OBJ\test.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\OBJ\\test.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled Dec  1 2009 11:42:48
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.339V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=3076 RO-data=268 RW-data=40 ZI-data=1632  
+FromELF: creating hex file...
+"..\OBJ\test.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\OBJ\\test.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled Dec  1 2009 11:42:48
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.339V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=3084 RO-data=268 RW-data=40 ZI-data=1632  
+FromELF: creating hex file...
+"..\OBJ\test.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\OBJ\\test.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM V8 compiled Dec  1 2009 11:42:48
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.332V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...

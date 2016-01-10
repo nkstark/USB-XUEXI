@@ -1,0 +1,13 @@
+..\OBJ\usb_istr.o: ..\LIB\SUBCFG\usb_istr.c
+..\OBJ\usb_istr.o: ..\LIB\USB\usb_lib.h
+..\OBJ\usb_istr.o: ..\LIB\USB\usb_type.h
+..\OBJ\usb_istr.o: ..\LIB\SUBCFG\usb_conf.h
+..\OBJ\usb_istr.o: ..\LIB\USB\usb_regs.h
+..\OBJ\usb_istr.o: ..\LIB\USB\usb_def.h
+..\OBJ\usb_istr.o: ..\LIB\USB\usb_core.h
+..\OBJ\usb_istr.o: ..\LIB\USB\usb_init.h
+..\OBJ\usb_istr.o: ..\LIB\USB\usb_mem.h
+..\OBJ\usb_istr.o: ..\LIB\USB\usb_int.h
+..\OBJ\usb_istr.o: ..\LIB\SUBCFG\usb_prop.h
+..\OBJ\usb_istr.o: ..\LIB\SUBCFG\usb_pwr.h
+..\OBJ\usb_istr.o: ..\LIB\SUBCFG\usb_istr.h
